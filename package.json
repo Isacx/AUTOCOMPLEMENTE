@@ -1,0 +1,19 @@
+{
+  "name": "auto-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "server": "json-server db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.6.6",
+    "json-server": "latest",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
